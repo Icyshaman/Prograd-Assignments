@@ -22,6 +22,8 @@ public class Q34_SecondLargestElement {
 		for(int i=0; i<num; i++) {
 			if(arr[i] != max) {
 				copyArr[i]= arr[i]; 
+			}else {
+				copyArr[i] = Integer.MIN_VALUE;
 			}
 		}
 		max = Integer.MIN_VALUE;

@@ -28,6 +28,7 @@ public class Q35_TransposeMatrix {
 			}
 			System.out.println();
 		}
+		
 		System.out.println();
 		for(int[] r: transposeMatrix) {
 			for(int c: r) {
