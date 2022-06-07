@@ -12,5 +12,14 @@ public class Q40_Books {
 		this.publisher = publisher;
 		this.rating = rating;
 	}
+
+	public Q40_Books(String title, String rating) {
+		super();
+		this.title = title;
+		this.rating = rating;
+		this.publisher = "O'Reilly";
+	}
+	
+	
 		
 }
