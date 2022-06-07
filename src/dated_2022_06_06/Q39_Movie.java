@@ -33,4 +33,11 @@ public class Q39_Movie {
 		return pgRatedMovies;
 	}
 	
+	public static void main(String[] args) {
+		Q39_Movie mv1 = new Q39_Movie("Casino Royale","Eon Productions","PG-13");
+		System.out.println(mv1.title);
+		System.out.println(mv1.studio);
+		System.out.println(mv1.rating);
+	}
+	
 }
