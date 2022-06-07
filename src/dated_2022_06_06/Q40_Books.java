@@ -33,5 +33,11 @@ public class Q40_Books {
 		return oReillyBooks;
 	}
 	
+	public static void main(String[] args) {
+		Q40_Books book1 = new Q40_Books("The Twitter Book","PG");
+		System.out.println(book1.title);
+		System.out.println(book1.publisher);
+		System.out.println(book1.rating);
+	}
 		
 }
