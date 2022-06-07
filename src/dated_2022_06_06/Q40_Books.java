@@ -1,5 +1,8 @@
 package dated_2022_06_06;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Q40_Books {
 	
 	private String title;
@@ -20,6 +23,15 @@ public class Q40_Books {
 		this.publisher = "O'Reilly";
 	}
 	
+	public List<Q40_Books> getOReilly(Q40_Books[] books) {
+		List<Q40_Books> oReillyBooks = new ArrayList<Q40_Books>();
+		for(Q40_Books book : books) {
+			if(book.rating.equals("O'Reilly")) {
+				oReillyBooks.add(book);
+			}
+		}
+		return oReillyBooks;
+	}
 	
 		
 }
