@@ -12,5 +12,12 @@ public class Q39_Movie {
 		this.studio = studio;
 		this.rating = rating;
 	}
+	
+	public Q39_Movie(String title, String studio) {
+		super();
+		this.title = title;
+		this.studio = studio;
+		this.rating = "PG";
+	}
 
 }
