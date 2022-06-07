@@ -1,5 +1,8 @@
 package dated_2022_06_06;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Q39_Movie {
 
 	private String title;
@@ -20,4 +23,14 @@ public class Q39_Movie {
 		this.rating = "PG";
 	}
 
+	public List<Q39_Movie> getPg(Q39_Movie[] movies) {
+		List<Q39_Movie> pgRatedMovies = new ArrayList<Q39_Movie>();
+		for(Q39_Movie mv : movies) {
+			if(mv.rating.equals("PG")) {
+				pgRatedMovies.add(mv);
+			}
+		}
+		return pgRatedMovies;
+	}
+	
 }
